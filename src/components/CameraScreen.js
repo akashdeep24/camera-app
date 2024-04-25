@@ -61,7 +61,6 @@ const CameraScreen = () => {
 			};
 		} catch (e) {
 			alert("Error accessing camera, please RELOAD and TRY AGAIN!!! ");
-			switchCameraFacingMode()
 		}
 	};
 
